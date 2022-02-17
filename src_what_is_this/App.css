@@ -1,0 +1,43 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+li:last-child{
+  background-color:burlywood;
+}
+li a:hover {
+  -webkit-text-stroke-width: 5%; 
+}
+textarea {
+  resize: none;
+  margin-top:2%;
+}
+
+li:first-child{
+  float: right;
+  background-color:burlywood;
+}
+li:first-child:hover{
+  background-color:rgb(212, 135, 35);
+}
+.submit_button{
+  margin-top:2%;
+  font-size:150%;
+}
